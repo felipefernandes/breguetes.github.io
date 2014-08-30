@@ -4,17 +4,10 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+  <div class="logo">
+    <img src="img/logo.png" />
+  </div>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="mensagem">Entre em contato e faça sua encomenda em <a href="mailto:marisadeca@yahooo.com.br">marisadeca@yahooo.com.br</a></div>
 
 </div>
