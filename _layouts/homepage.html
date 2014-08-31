@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+    <div id="inicio" class="page-content start">
+      <div class="wrap">
+      {{ content }}
+      </div>
+    </div>
+
+    <div id="produtos" class="page-content produtos-page">
+    {% include produtos.html %}
+    </div>
+
+    <div id="assine" class="page-content page acompanhe-page">
+    {% include acompanhe.html %}
+    </div>
+
+    <div class="scrollToTop">Início</div>
+
+    {% include footer.html %}
+
+    </body>
+</html>

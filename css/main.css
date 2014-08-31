@@ -29,6 +29,7 @@ a:visited { color: #205caa; }
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
+  width: 70%;
   max-width: 800px;
   padding: 0 30px;
   margin: 0 auto;
@@ -137,7 +138,7 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 .page-content {
-  padding: 30px 0;
+  padding: 30px 0 40px;
 }
 
 
@@ -161,6 +162,24 @@ a:visited { color: #205caa; }
 .home .mensagem a:hover { 
   color: #f37172; 
   border-bottom: none;
+}
+
+.home .opcoes {
+  text-align: center;
+}
+
+.home .opcoes a {
+  display: inline-block;
+  padding: 3px 10px;
+  margin-bottom: 10px;
+  background: #f37172;
+  border-radius: 5px;
+  color: white;
+}
+
+.home .opcoes a:hover {
+  color: #f37172;
+  background-color: white;
 }
 
 .posts { list-style-type: none; }
@@ -342,6 +361,140 @@ a:visited { color: #205caa; }
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 
+/* produtos styles */
+/* ----------------------------------------------------------*/
+
+.start {
+
+}
+
+.produtos {  
+  padding:5% 0 0;
+  color: white;
+}
+
+.produtos a {
+  color: white;
+  border-bottom:1px dashed #341530;
+}
+
+.produtos a:hover {
+  color: #341530;
+  border-bottom: none;
+}
+
+.produtos h2 {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 40px;
+  text-shadow: 1px 1px 0 rgba(47,19,40,0.7);
+}
+
+.produtos .wrap p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+
+.produtos .galeria {
+  margin:20px 0;
+}
+
+.produtos .galeria h4 {
+  font-family: 'Pacifico', sans-serif;
+
+}
+
+
+/* Acompanhe / Contato */
+/* ----------------------------------------------------------*/
+
+.acompanhe {
+  padding:5% 0 0;
+}
+
+.acompanhe h2 {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 1px 0px #b73396;
+}
+
+.acompanhe .wrap p {
+  margin-top: 10px;
+}
+
+.acompanhe .formulario {
+  margin-top: 5%;
+  background: rgba(47,19,40,0.7);
+  border-radius: 5px;
+  color: white;
+}
+
+.acompanhe .formulario #mc_embed_signup input.button {
+  background-color: #b73396;
+  float: right; 
+  margin-right: 30px;
+}
+
+
+/* parallax */
+/* ----------------------------------------------------------*/
+.start,
+.page  { 
+  width: 100%;
+  max-width: 1920px;
+  min-height: 100%;
+  position: relative; 
+  background-position: 50% 0;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.start {
+  padding-top: 5%;
+
+}
+
+.produtos-page {
+  -webkit-box-shadow: -20px 0 20px 5px rgba(0,0,0,0.7);
+  -moz-box-shadow: -20px 0 20px 5px rgba(0,0,0,0.7);
+  -ms-box-shadow: -20px 0 20px 5px rgba(0,0,0,0.7);
+  -o-box-shadow: -20px 0 20px 5px rgba(0,0,0,0.7);
+  box-shadow: -20px 0 20px 5px rgba(0,0,0,0.7);  
+
+  background-color: #f37172;
+}
+
+.acompanhe-page {
+  background:none;
+}
+
+
+/* Scroll to Top */
+/* ----------------------------------------------------------*/
+
+.scrollToTop {
+  width:70px; 
+  height:30px;
+  padding:55px 10px 10px 10px; 
+  text-align:center; 
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  text-shadow:1px 1px 0 rgba(0,0,0,0.5);
+  position:fixed;
+  top:75px;
+  right:40px;
+  display:none;
+  background: url('../img/inicio.png') no-repeat top center;
+}
+
+.scrollToTop:hover{
+  text-decoration:none;
+}
+
+
+
 /* media queries */
 /* ----------------------------------------------------------*/
 
@@ -424,4 +577,13 @@ a:visited { color: #205caa; }
     width: auto;
     margin: 0 0 15px; }
 
+  .scrollToTop {
+    top: auto;
+    bottom: 5px;    
+    right: 50%;
+    margin-right: -35px;
+  }
+
 }
+
+
