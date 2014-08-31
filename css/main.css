@@ -148,7 +148,7 @@ a:visited { color: #205caa; }
 
 .home { text-align: center; }
 
-.home h1 { margin-bottom: 25px; }
+.home h1 { text-indent: -9999px; }
 
 .home .mensagem { 
   color: white; 
