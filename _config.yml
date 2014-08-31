@@ -1,9 +1,9 @@
 # Site settings
-title: Breguetes da Marisa
+title: Breguetes da Marisa - Arte com a mão
 email: marisadeca@yahoo.com.br
-description: ""
+description: "Artesanato para a sua casa feitos por Marisa Fernandes. Faça sua encomenda das belíssimas Garrafas decoradas."
 baseurl: ""
-url: "http://breguetes.com.br"
+url: "http://www.breguetes.com.br"
 
 # Build settings
 markdown: kramdown
