@@ -139,6 +139,7 @@ a:visited { color: #205caa; }
 
 .page-content {
   padding: 30px 0 40px;
+  overflow: hidden;
 }
 
 
@@ -582,6 +583,10 @@ a:visited { color: #205caa; }
     bottom: 5px;    
     right: 50%;
     margin-right: -35px;
+  }
+
+  .home .logo img {
+    width: 100%;
   }
 
 }
